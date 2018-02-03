@@ -1,0 +1,13 @@
+#trash {
+    float: right;
+    width: 150px;
+    padding: 0 10px;
+    border: 1px solid #ccc;
+    background: #eee;
+    text-align: left;
+}
+
+#container {
+    float: center;
+    width: 700px;
+}

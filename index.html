@@ -9,12 +9,18 @@
     <script src='lib/jquery.min.js'></script>
     <script src='lib/moment.min.js'></script>
     <script src='fullcalendar/fullcalendar.js'></script>
+    <link rel="stylesheet" href="css/calendar.css" rel="stylesheet">
     <script src="calendar.js"></script>
     <title>Document</title>
 </head>
 
 <body>
-    <div id="container" style="width:500px">
+    <div id='trash'>
+        <div id='external-events-listing'>
+            <h4>Delete Events</h4>
+        </div>
+    </div>
+    <div id="container" >
         <div id='calendar'></div>
     </div>
     <button id="addEvent">crear</button>
